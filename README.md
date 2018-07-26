@@ -1,18 +1,18 @@
-#Reporting Tool
+# Reporting Tool
 The third project in Udacity's full stack web development nanodegree program.
 
-##Project Overview
+## Project Overview
 The aim of the project is to create a reporting tool that prints out reports (in plain text) based on the data in the database provided. The database is a PostgreSQL database for a news website.The database is named 'news' and has 3 tables - authors,articles and log. Running the file newsdata.sql will execute the SQL commands in the file, creating tables and populating them with data. The authors table includes information about the authors of articles.
 The articles table includes the articles themselves. The log table includes one entry for each time a user has accessed the site. The python script reportingTool.py answers the following questions - What are the most popular three articles of all time?,Who are the most popular article authors of all time? and On which days did more than 1% of requests lead to errors?</h2>
 
 
-##Requirements
+## Requirements
 Python 2 - The code uses ver 2.7.2
 Vagrant - A virtual environment builder and manager
 VirtualBox - An open source virtualiztion product.
 
 
-##Access the project
+## Access the project
 For using this project, follow the steps listed below:
 
 1. Download Python - https://www.python.org/getit/
@@ -31,7 +31,7 @@ For using this project, follow the steps listed below:
 14. Use command **python reportingTool.py** to run the python program that fetches query results.
 
 
-##Create Views
+## Create Views
 A View (error_records) was created to answer the third query in the project with the purpose of leaving the original database unchanged. 
 
 ```sql
