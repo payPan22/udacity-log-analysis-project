@@ -7,9 +7,9 @@ The articles table includes the articles themselves. The log table includes one 
 
 
 ## Requirements
-Python 2 - The code uses ver 2.7.2
-Vagrant - A virtual environment builder and manager
-VirtualBox - An open source virtualiztion product.
+1. Python 2 - The code uses ver 2.7.2
+2. Vagrant - A virtual environment builder and manager
+3. VirtualBox - An open source virtualization product.
 
 
 ## Access the project
